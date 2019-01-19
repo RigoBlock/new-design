@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=1024, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/dragowwithdraw.css" rel="stylesheet" type="text/css"/>
+        <meta content="Launchpad by Anima" name="author">
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(243, 245, 247, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="dragowwithdraw"/>
+        <div class="dragowwithdraw">
+            <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
+                <img anima-src="./img/yKCO-dragohsell-drago-manager.png" class="dragomanager" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <div class="rectangle11">
+                </div>
+                <div class="group3">
+                    <img anima-src="./img/38JT-dragowwithdraw--rectangle-9-copy-2.png" class="rectangle9copy2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="cta1">
+                        <div class="rectangle6copy">
+                        </div>
+                        <div class="label">
+                            Cancel
+                        </div>
+                    </div>
+                    <div class="cta11">
+                        <div class="rectangle6copy">
+                        </div>
+                        <div class="label">
+                            Withdraw
+                        </div>
+                    </div>
+                    <div class="totalinvestment">
+                        <div class="fees">
+                            Fees
+                        </div>
+                        <div class="group10">
+                            <div class="group2">
+                                <div class="eth1">
+                                    ETH
+                                </div>
+                                <div class="a800023">
+                                    8000,23
+                                </div>
+                                <div class="ethcopy">
+                                    ETH
+                                </div>
+                                <div class="a1203211">
+                                    12032,11
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="currentvalue">
+                        <div class="netwithdraw">
+                            Net withdraw
+                        </div>
+                        <div class="group12">
+                            <div class="group11">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="cta12">
+                            <div class="rectangle6copy">
+                            </div>
+                            <div class="label">
+                                ETH
+                            </div>
+                        </div>
+                        <div class="cta111">
+                            <div class="rectangle6copy">
+                            </div>
+                            <div class="label">
+                                VLT
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rectangle10copy3">
+                    </div>
+                    <img anima-src="./img/6ipm-vaultbwithdraw---rectangle-9-copy@2x.png" class="rectangle9copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./img/vcho-vaultswcreate--ickeyboardarrowrightblack24px@2x.png" class="ickeyboardarrowrightblack24px" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="metamask1604">
+                        Metamask **** 1604
+                    </div>
+                    <div class="withdrawto">
+                        Withdraw to
+                    </div>
+                    <div class="a12">
+                        12
+                    </div>
+                    <div class="amount">
+                        Amount
+                    </div>
+                    <div class="currentvaultholdin">
+                        Current vault holding
+                    </div>
+                    <div class="eth">
+                        ETH
+                    </div>
+                    <div class="a21233">
+                        212,33
+                    </div>
+                    <div class="rectangle10">
+                    </div>
+                    <div class="rectangle">
+                    </div>
+                    <div class="deposit">
+                        Deposit
+                    </div>
+                    <div class="withdraw">
+                        Withdraw
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <!-- End of Scripts -->
+    </body>
+</html>

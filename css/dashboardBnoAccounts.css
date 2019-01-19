@@ -1,0 +1,978 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono:400');
+
+
+.dashboardbnoaccounts {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 718px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(243, 245, 247, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.dashboardbnoaccounts .top {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 32px;
+  width               : 985px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .top .topbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 985px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .top .topbar .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 985px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .top .topbar .preferences {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 857px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.dashboardbnoaccounts .top .topbar .help {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 957px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.dashboardbnoaccounts .top .topbar .rectangle9copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 38px;
+  width               : 356px;
+  position            : absolute;
+  margin              : 0;
+  left                : 147px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .top .topbar .searchvaultordrag {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 190px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(155, 154, 155, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.dashboardbnoaccounts .top .topbar .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 158px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .top .topbar .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 161px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .top .topbar .rigoblock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 21.9px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 25.9px;
+}
+.dashboardbnoaccounts .top .topbar .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 185px;
+  position            : absolute;
+  margin              : 0;
+  left                : 652px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .top .topbar .group .cta1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .top .topbar .group .cta1 .rectangle6copy {
+  background-color    : rgba(0, 117, 255, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 95px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .top .topbar .group .cta1 .label {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.dashboardbnoaccounts .top .topbar .group .cta11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .top .topbar .group .cta11 .rectangle6copy {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  box-sizing          : border-box;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(0, 117, 255, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .top .topbar .group .cta11 .label {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 117, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.dashboardbnoaccounts .top .search {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 350px;
+  position            : absolute;
+  margin              : 0;
+  left                : 150px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .top .search .icsearchblack24px {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 24px;
+  width               : 24px;
+  position            : relative;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventry {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 196px;
+  height              : 32px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventry .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventry .dashboard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.dashboardbnoaccounts .naventry .icdashboardblack24px {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventry .icdashboardblack24px .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventry .icdashboardblack24px .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventrycopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 228px;
+  height              : 32px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventrycopy .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventrycopy .dashboard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.dashboardbnoaccounts .naventrycopy .icaccountbalancewalletblack24px {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventrycopy .icaccountbalancewalletblack24px .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventrycopy .icaccountbalancewalletblack24px .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 18px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventrycopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 260px;
+  height              : 32px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventrycopy2 .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventrycopy2 .dashboard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.dashboardbnoaccounts .naventrycopy2 .iclockblack24px {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventrycopy2 .iclockblack24px .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventrycopy2 .iclockblack24px .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 21px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .accounts {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 87px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 17.5px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.dashboardbnoaccounts .rectangle10 {
+  background-color    : rgba(218, 218, 218, 1.0);
+  top                 : 163px;
+  height              : 1px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .rectangle10copy {
+  background-color    : rgba(218, 218, 218, 1.0);
+  top                 : 324px;
+  height              : 1px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .hellothere {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 317px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 27.3px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 32.0px;
+}
+.dashboardbnoaccounts .a257u30c4257 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 113px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Menlo-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.dashboardbnoaccounts .a257u30c4257 .span1 {
+  
+}
+.dashboardbnoaccounts .a257u30c4257 .span2 {
+  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
+}
+.dashboardbnoaccounts .a257u30c4257 .span3 {
+  
+}
+.dashboardbnoaccounts .rigoblockisaproto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 132px;
+  height              : auto;
+  width               : 479px;
+  position            : absolute;
+  margin              : 0;
+  left                : 317px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.dashboardbnoaccounts .wesuggestusingmet {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 218px;
+  height              : auto;
+  width               : 479px;
+  position            : absolute;
+  margin              : 0;
+  left                : 317px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.dashboardbnoaccounts .youkeepcontrolof {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 352px;
+  height              : auto;
+  width               : 479px;
+  position            : absolute;
+  margin              : 0;
+  left                : 317px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.dashboardbnoaccounts .navigatethroughthe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 440px;
+  height              : auto;
+  width               : 479px;
+  position            : absolute;
+  margin              : 0;
+  left                : 316px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.dashboardbnoaccounts .navigatethroughthe .span1 {
+  
+}
+.dashboardbnoaccounts .navigatethroughthe .span2 {
+  font-family         : "HiraginoSans-W3", Helvetica, Arial, serif;
+}
+.dashboardbnoaccounts .metamask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 244px;
+  height              : auto;
+  width               : 479px;
+  position            : absolute;
+  margin              : 0;
+  left                : 317px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 117, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.dashboardbnoaccounts .livechat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 583px;
+  height              : auto;
+  width               : 479px;
+  position            : absolute;
+  margin              : 0;
+  left                : 315px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 117, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.dashboardbnoaccounts .a1makesureyouare {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 192px;
+  height              : auto;
+  width               : 479px;
+  position            : absolute;
+  margin              : 0;
+  left                : 317px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 17.5px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.dashboardbnoaccounts .a2makesureyourwa {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 325px;
+  height              : auto;
+  width               : 479px;
+  position            : absolute;
+  margin              : 0;
+  left                : 317px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 17.5px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.dashboardbnoaccounts .a3organizeyourtok {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 411px;
+  height              : auto;
+  width               : 479px;
+  position            : absolute;
+  margin              : 0;
+  left                : 316px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 17.5px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.dashboardbnoaccounts .needhelp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 545px;
+  height              : auto;
+  width               : 479px;
+  position            : absolute;
+  margin              : 0;
+  left                : 315px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 17.5px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.dashboardbnoaccounts .setupyourwalletan {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 284px;
+  height              : auto;
+  width               : 479px;
+  position            : absolute;
+  margin              : 0;
+  left                : 317px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.dashboardbnoaccounts .setupyourwalletan .span1 {
+  
+}
+.dashboardbnoaccounts .setupyourwalletan .span2 {
+  font-family         : "LucidaGrande", Helvetica, Arial, serif;
+}
+.dashboardbnoaccounts .setupyourwalletan .span3 {
+  
+}
+.dashboardbnoaccounts .rectangle10copy1 {
+  background-color    : rgba(218, 218, 218, 1.0);
+  top                 : 516px;
+  height              : 1px;
+  width               : 480px;
+  position            : absolute;
+  margin              : 0;
+  left                : 315px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventrycopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 361px;
+  height              : 32px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventrycopy4 .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventrycopy4 .dashboard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.dashboardbnoaccounts .naventrycopy4 .iclistblack24px {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventrycopy4 .iclistblack24px .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardbnoaccounts .naventrycopy4 .iclistblack24px .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
